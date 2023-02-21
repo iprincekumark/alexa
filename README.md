@@ -34,3 +34,28 @@ In case any error pops up install this -
 
 #### Issues
 If you encounter any problems feel free to open a new issue. Before that check other closed issues and check if your issue matches with any older issues.
+
+
+
+<html>
+<body>
+  <h1>Alexa Voice Assistant</h1>
+  <p>This is a Python program that acts as a voice assistant similar to Amazon's Alexa. The program uses speech recognition to listen for voice commands and performs various actions based on those commands.</p>
+  <h2>Features</h2>
+  <ul>
+    <li>Speech recognition using the SpeechRecognition library</li>
+    <li>Text-to-speech using the pyttsx3 library</li>
+    <li>Command processing and execution</li>
+    <li>YouTube search and play using the pywhatkit library</li>
+    <li>Current time announcement</li>
+    <li>Wikipedia search using the wikipedia library</li>
+    <li>Joke telling using the pyjokes library</li>
+    <li>Wake word ("alexa") to activate the assistant</li>
+    <li>Error handling for speech recognition</li>
+    <li>Stop command ("stop") to exit the program</li>
+  </ul>
+  <h2>Usage</h2>
+  <p>To use the program, run the `main.py` file in a Python environment with the necessary libraries installed. The program will listen for the wake word "alexa" and prompt the user for a command. The user can then speak a command, and the program will execute the appropriate action.</p>
+  <p>To stop the program, the user can say "stop".</p>
+</body>
+</html>
